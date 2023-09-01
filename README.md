@@ -1,18 +1,13 @@
-# Driver-Drowsiness-Detection
-Driver drowsiness detection is a project built using Dlib and OpenCV with Python as a backend language.
-<h3>Logic of project</h3>
-The project includes direct working with the 68 facial landmark detector and also the face detector of the Dlib library.
-The 68 facial landmark detector is a robustly trained efficient detector which detects the points on the human face using which 
-we determine whether the eyes are open or they are closed.</br></br>
-<center><img src="https://raw.githubusercontent.com/infoaryan/Driver-Drowsiness-Detection/master/screenshots/landmarks.jpg" align="center" height="350"></center>
-<b>The 68-landmark detector data (.dat) file can be found <a href="http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2"> By clicking here</a></B>
+#Facerecognition_EyeDrowsiness_Detection_Project
 
-<h3>The working of the project</h3>
-<ul><li>As you can see the<b> above screenshot</b> where the landmarks aredetected using the detector.
-<li>Now we are taking the ratio which is described as <i>'Sum of distances of vertical landmarks divided by twice the distance between horizontal landmarks'</i>.
-<li>Now this ratio is totally dependent on your system which you may configure accordingly for the thresholds of sleeping, drowsy, active.</ul>
-<p><img src="https://raw.githubusercontent.com/infoaryan/Driver-Drowsiness-Detection/master/screenshots/active.jpg" align="center" height="350">
-<img src="https://raw.githubusercontent.com/infoaryan/Driver-Drowsiness-Detection/master/screenshots/drowsy.jpg" align="center" height="350">
-<img src="https://raw.githubusercontent.com/infoaryan/Driver-Drowsiness-Detection/master/screenshots/sleepy.jpg" align="center" height="350">
+"This was a vital component of my graduation project, for which I assumed responsibility. The project's objective was to capture a person's face, determine their name (achieved by training the model using a substantial dataset of the person's images), and assess their current state, particularly whether they are awake or asleep, through eye tracking."
 
-<h2>Detailed Explanation video of the project : </h2><a href="https://youtu.be/ksi42rwGyas">Youtube video link</a>
+
+
+![awake](https://github.com/ahmednader2019/Facerecognition_EyeDrowsiness_Detection_Project/assets/57724930/280734b0-3d73-4771-a6bb-818f59479050)
+
+
+
+
+![sleeping](https://github.com/ahmednader2019/Facerecognition_EyeDrowsiness_Detection_Project/assets/57724930/bd06760c-1f69-41d9-b9f3-95a0c9a0c833)
+
